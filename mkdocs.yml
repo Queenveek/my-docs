@@ -5,7 +5,8 @@ nav:
   - About: about.md
 
 theme:
-  name: readthedocs
+  name: material
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -15,7 +16,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:mermaid2.fence_mermaid_custom
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:

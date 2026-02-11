@@ -32,6 +32,7 @@ Start reading the documentation by exploring
 
 ```python
 # This is a code block
+```
 print("Hello")
 **What happens:**
 - MkDocs converts your Markdown to HTML (web page)
